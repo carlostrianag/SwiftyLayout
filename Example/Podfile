@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyLayout_Example' do
+  pod 'SwiftyLayout', :path => '../'
+
+  target 'SwiftyLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
