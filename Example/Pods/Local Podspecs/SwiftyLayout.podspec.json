@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyLayout",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/carlostrianag/SwiftyLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "carlostrianag": "carlos.triana@ultertechnologies.com"
+  },
+  "source": {
+    "git": "https://github.com/carlostrianag/SwiftyLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftyLayout/Classes/**/*"
+}

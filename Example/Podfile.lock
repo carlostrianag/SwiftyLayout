@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyLayout (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyLayout (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyLayout: 89931e81b27207f5ce82fbd698c25c35c3fbec0e
+
+PODFILE CHECKSUM: de8247f5de498fe32c0229f5c0748452923f09c2
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,6 @@
+framework module SwiftyLayout {
+  umbrella header "SwiftyLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
