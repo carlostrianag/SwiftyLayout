@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftyLayout'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftyLayout.'
+  s.summary          = 'For all those AutoLayout lovers, these are constraints made easy.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'SwiftyLayout is a sugar syntax set of statements that will make dealing with AutoLayout constraints a lot easier. Just give it a taste.'
                        DESC
 
   s.homepage         = 'https://github.com/carlostrianag/SwiftyLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'carlostrianag' => 'carlos.triana@ultertechnologies.com' }
+  s.author           = { 'carlostrianag' => 'trianag24@gmail.com' }
   s.source           = { :git => 'https://github.com/carlostrianag/SwiftyLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'SwiftyLayout/Classes/**/*'
   
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		227CD386564019D7EB66F0F5 /* Pods-SwiftyLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLayout_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyLayout_Example/Pods-SwiftyLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		52B9B750E921AF3123274F69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		52B9B750E921AF3123274F69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,11 +40,11 @@
 		607FACE51AFB9204008FA782 /* SwiftyLayout_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLayout_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7655CE8AA2E553C10DA46113 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7655CE8AA2E553C10DA46113 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8979651F7DBA1999403A9664 /* Pods_SwiftyLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93181DF624623AFB285D987E /* Pods-SwiftyLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLayout_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftyLayout_Example/Pods-SwiftyLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AB38B26AED23A7F134E9E342 /* Pods-SwiftyLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLayout_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyLayout_Tests/Pods-SwiftyLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B685F1A94DB7D4713AB5B445 /* SwiftyLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyLayout.podspec; path = ../SwiftyLayout.podspec; sourceTree = "<group>"; };
+		B685F1A94DB7D4713AB5B445 /* SwiftyLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyLayout.podspec; path = ../SwiftyLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D236DC20633F6E367994749B /* Pods-SwiftyLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyLayout_Tests/Pods-SwiftyLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8C3CC12125717BF32B723CD /* Pods_SwiftyLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				D236DC20633F6E367994749B /* Pods-SwiftyLayout_Tests.debug.xcconfig */,
 				AB38B26AED23A7F134E9E342 /* Pods-SwiftyLayout_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -423,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -469,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

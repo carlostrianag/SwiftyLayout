@@ -11,9 +11,12 @@
 		046F5A715E60252347300FEF61DF3DDD /* SwiftyLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D30C1DBF44926313EB739C8A38D7E1 /* SwiftyLayout-dummy.m */; };
 		31B8FEF6B110D565FC79BE084E73F7E2 /* Pods-SwiftyLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40D0694E067F55C6145F69DBFAFD4591 /* Pods-SwiftyLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		644E814F8250E4CEE3734637EDC19428 /* Pods-SwiftyLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B562516CB8D564B5986A9CD928FD57 /* Pods-SwiftyLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		777E5EBD237210C100968D9B /* DeclarativeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E5EB9237210C000968D9B /* DeclarativeLayout.swift */; };
+		777E5EBE237210C100968D9B /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E5EBA237210C000968D9B /* BaseView.swift */; };
+		777E5EBF237210C100968D9B /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E5EBB237210C000968D9B /* Layout.swift */; };
+		777E5EC0237210C100968D9B /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E5EBC237210C100968D9B /* Styles.swift */; };
 		851B686810513CE1738B7F0DC0B85868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8EFFED973EE30B6432967F75E83ADAD8 /* Pods-SwiftyLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E214E8E0477F31E98316D5C297049B6 /* Pods-SwiftyLayout_Example-dummy.m */; };
-		A65C7044D505ED678C1DC785BE133415 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC2BC799019B52722FAC3061A195F8B /* ReplaceMe.swift */; };
 		AB3BA3567394C48F5F189A444F932090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B78DF4180CA923E25CB736FB3F02814B /* SwiftyLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D17EA216A303302532573D70A6317C /* SwiftyLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8B488E0864D69B14C1CDD4570B173A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -40,19 +43,22 @@
 		12CFD11EF27813A66A001449D1D51662 /* Pods-SwiftyLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyLayout_Example-Info.plist"; sourceTree = "<group>"; };
 		28878CB21C94B670041B2A5A55F288FC /* Pods-SwiftyLayout_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyLayout_Tests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3DBC363CFCF1546A232C85AC8F5F0E62 /* Pods_SwiftyLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyLayout_Example.framework; path = "Pods-SwiftyLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBC363CFCF1546A232C85AC8F5F0E62 /* Pods_SwiftyLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D0694E067F55C6145F69DBFAFD4591 /* Pods-SwiftyLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
 		47DA468696BFECFDE50AAEFD8B7318EA /* SwiftyLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyLayout-prefix.pch"; sourceTree = "<group>"; };
 		48BDA6F083D2DB0D2D84E54AD11751FC /* SwiftyLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyLayout-Info.plist"; sourceTree = "<group>"; };
-		4BC2BC799019B52722FAC3061A195F8B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftyLayout/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		50840B1B43006B5E6DC4C8BF9F5ABF81 /* Pods-SwiftyLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6E35A415BDB331A2EC10C1C2488BB1B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6E35A415BDB331A2EC10C1C2488BB1B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		773E54CEDB8EE104FF08224F82E5820A /* Pods-SwiftyLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyLayout_Tests-dummy.m"; sourceTree = "<group>"; };
-		8092AB83CC16909FD570B296F74BDCFC /* Pods_SwiftyLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyLayout_Tests.framework; path = "Pods-SwiftyLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		777E5EB9237210C000968D9B /* DeclarativeLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeclarativeLayout.swift; sourceTree = "<group>"; };
+		777E5EBA237210C000968D9B /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		777E5EBB237210C000968D9B /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		777E5EBC237210C100968D9B /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		8092AB83CC16909FD570B296F74BDCFC /* Pods_SwiftyLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D30C1DBF44926313EB739C8A38D7E1 /* SwiftyLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyLayout-dummy.m"; sourceTree = "<group>"; };
 		8D65321E7A58FB5529E0DCA6837185BE /* Pods-SwiftyLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B2FB27A28796AD2F819A118BEFEF755 /* Pods-SwiftyLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E214E8E0477F31E98316D5C297049B6 /* Pods-SwiftyLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyLayout_Example-dummy.m"; sourceTree = "<group>"; };
 		A1B562516CB8D564B5986A9CD928FD57 /* Pods-SwiftyLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		B2AF23D81E7336DA02E54F435749D4EE /* Pods-SwiftyLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,9 +67,9 @@
 		BC5234646629E60EEF918F007A430BEC /* Pods-SwiftyLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BE5184A74412451F5113ABFF288114D3 /* SwiftyLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyLayout.modulemap; sourceTree = "<group>"; };
 		CC8C50A13C14E3CB999471809D794698 /* Pods-SwiftyLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D0F84ABFF0B83EA3F33E460F489A2762 /* SwiftyLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D16D5E0166BFB2FE38698B703241A622 /* SwiftyLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyLayout.framework; path = SwiftyLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3650B8B9076A62058E7FC119AF14A60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D0F84ABFF0B83EA3F33E460F489A2762 /* SwiftyLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftyLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D16D5E0166BFB2FE38698B703241A622 /* SwiftyLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3650B8B9076A62058E7FC119AF14A60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D4E062EC2C98BD926ECEEAB9E82EA921 /* Pods-SwiftyLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E3A3886C916700BE8F9EE88B8F029837 /* Pods-SwiftyLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyLayout_Example.modulemap"; sourceTree = "<group>"; };
 		F1D17EA216A303302532573D70A6317C /* SwiftyLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyLayout-umbrella.h"; sourceTree = "<group>"; };
@@ -102,7 +108,7 @@
 		22230E9FFE4FB6005C67603937237B41 /* SwiftyLayout */ = {
 			isa = PBXGroup;
 			children = (
-				4BC2BC799019B52722FAC3061A195F8B /* ReplaceMe.swift */,
+				777E5EC12372177300968D9B /* Source */,
 				46B08CDA648DA1454F6C21D630CAE876 /* Pod */,
 				D8B07788DDC6FCE8906D741C1684D6D7 /* Support Files */,
 			);
@@ -136,6 +142,17 @@
 				D0F84ABFF0B83EA3F33E460F489A2762 /* SwiftyLayout.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		777E5EC12372177300968D9B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				777E5EBA237210C000968D9B /* BaseView.swift */,
+				777E5EB9237210C000968D9B /* DeclarativeLayout.swift */,
+				777E5EBB237210C000968D9B /* Layout.swift */,
+				777E5EBC237210C100968D9B /* Styles.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		A6D8E374EC3A28A6834960E29BECFBA8 /* Targets Support Files */ = {
@@ -380,8 +397,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A65C7044D505ED678C1DC785BE133415 /* ReplaceMe.swift in Sources */,
+				777E5EBD237210C100968D9B /* DeclarativeLayout.swift in Sources */,
+				777E5EBF237210C100968D9B /* Layout.swift in Sources */,
+				777E5EC0237210C100968D9B /* Styles.swift in Sources */,
 				046F5A715E60252347300FEF61DF3DDD /* SwiftyLayout-dummy.m in Sources */,
+				777E5EBE237210C100968D9B /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +439,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyLayout_Tests/Pods-SwiftyLayout_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyLayout_Tests/Pods-SwiftyLayout_Tests.modulemap";
@@ -453,7 +473,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyLayout/SwiftyLayout-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyLayout/SwiftyLayout-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftyLayout/SwiftyLayout.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyLayout;
@@ -484,7 +504,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyLayout_Tests/Pods-SwiftyLayout_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyLayout_Tests/Pods-SwiftyLayout_Tests.modulemap";
@@ -517,7 +537,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyLayout_Example/Pods-SwiftyLayout_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyLayout_Example/Pods-SwiftyLayout_Example.modulemap";
@@ -583,13 +603,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -646,7 +665,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -675,7 +694,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyLayout_Example/Pods-SwiftyLayout_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyLayout_Example/Pods-SwiftyLayout_Example.modulemap";
@@ -708,7 +727,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyLayout/SwiftyLayout-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyLayout/SwiftyLayout-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftyLayout/SwiftyLayout.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyLayout;
